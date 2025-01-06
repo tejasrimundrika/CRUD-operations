@@ -1,0 +1,103 @@
+                                                      
+Mundrika Tejasri 
+2211CS010389
+Group - 1
+
+Assignment:
+Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+
+What is a Data Type?
+A data type defines the type of data that a variable can hold in a programming language. It specifies the kind of operations that can be performed on the data. Data types are crucial for ensuring the correctness of a program, as they define the format, size, and range of values a variable can store.
+
+Types of Data Types:
+Primitive Data Types
+Non-Primitive Data Types
+
+1. Primitive Data Types
+-->These are the most basic types of data and can store single values.
+-->Predefined by the programming language.
+-->Simple and fundamental.
+Examples:
+String
+Number
+Boolean
+Undefined
+Null
+-->String:- sequence of characters enclosed within double quotes / single quotes / backticks(``).
+Example:
+let name = "Alice";      
+let greeting = 'Hello';  
+let message = `Welcome, ${name}!`; 
+console.log(message);    
+Output: Welcome, Alice!
+
+-->Number:-it sotres all the number data types such as integer , float values etc...
+Example:
+let age = 25;           
+let price = 99.99;      
+console.log(age + price); 
+Output: 124.99
+
+-->Boolean :-true/false, useful for conditional statements
+Example:
+let isStudent = true;
+let hasAccess = false;
+if (isStudent) {
+    console.log("You have access!");
+}
+
+-->Undefined:- any variable decalred but not intitialized.
+Example:
+let salary;
+console.log(salary); 
+Output: undefined
+
+-->Null:- empty of object.
+Example:
+let user = null;
+console.log(user);
+Output: null
+
+2. Non-Primitive Data Types
+-->These are more complex data types that can store multiple values.
+-->Created by the user.
+-->Capable of holding collections of data or complex entities.
+Examples:
+Functions
+Arrays
+Objects
+
+-->Functions:-A block of reusable code designed to perform a specific task.Can accept parameters and return results.
+Example:
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+console.log(greet("Alice")); 
+Output: Hello, Alice!
+
+-->Arrays:- A collection of elements, which can be of the same or different types.Elements are accessed using an index (starting at 0).
+Example:
+let fruits = ["Apple", "Banana", "Cherry"];
+console.log(fruits[0]);
+Output: Apple
+
+-->Objects:-A collection of key-value pairs.Each key is unique and maps to a specific value.
+Example:
+let car = {
+    brand: "Toyota",
+    model: "Camry",
+    year: 2022
+};
+console.log(car.brand);
+Output: Toyota
+
+
+
+
+
+
+
+
+
+
+
