@@ -121,31 +121,37 @@
 
 //ASSIGNMENT DAY -4
 //Right angled triangle pattern
-let n = 5;
+function generatestarpattern(n){
 let str ="";
 for(let i = 1;i<=n;i++){
     for(let j=0;j<i;j++){
         str+="*";
     }
     str +="\n";
+   }
+   return str;
 }
-console.log(str);
+let n = 5;
+console.log(generatestarpattern(n));
 
 //Rectangle Pattern 
-let i,j;
-let rows = 5;
-let cols=5;
-let ttr ="";
-for(let i=1;i<=rows;i++){
-    for(let j=1;j<=cols;j++){
-        ttr+="*";
+function generatePattern(rows, cols) {
+    let ttr = "";
+    for (let i = 1; i <= rows; i++) { 
+        for (let j = 1; j <= cols; j++) { 
+            ttr += "*"; 
+        }
+        ttr += "\n"; 
     }
-    ttr +="\n";
+    return ttr; 
 }
-console.log(ttr);
+let rows = 5;
+let cols = 5;
+console.log(generatePattern(rows, cols));
+
 
 //Cross pattern
-let size=5;
+function generatepatterncross(){
 for(let i =0;i<size;i++){
     let rows="";
     for(let j=0;j<size;j++){
@@ -157,6 +163,9 @@ for(let i =0;i<size;i++){
     }
     console.log(rows);
 }
+}
+let size=5;
+generatepatterncross(rows);
 
 
 
