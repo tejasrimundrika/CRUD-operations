@@ -1,24 +1,23 @@
-
 import React from 'react'
 
 const FBCPropsex1 = (props) => {
-    console.log(props);
+   console.log(props);
   if(props.isLoggedIn === true){
     return(
         <div>
-            <h1> welcome{props.username}</h1>
+            <h1>welcome {props.username}</h1>
             {
                 props.hobbies.map((value)=>{
-                    return<li>{value}</li>
+                    return <li>{value}</li>
                 })
             }
         </div>
     )
   }else{
-    return <h1>please login first</h1>
+    return <h1>Please Login first</h1>
   }
 }
-
 export default FBCPropsex1
+
 
 
