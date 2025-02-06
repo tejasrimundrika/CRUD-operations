@@ -100,24 +100,37 @@
 // export default App;
 
 
+// import React from 'react'
+// import FBCPropsex1 from './propsexample/FBCPropsex1'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <FBCPropsex1
+//       username="tej"
+//       isLoggedIn={false}
+//       hobbies={["watching movies","travel","Roaming","studies"]}
+//       />
+
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+
 import React from 'react'
-import FBCPropsex1 from './propsexample/FBCPropsex1'
+import FBCStateEx from './stateexamples/FBCStateEx';
 
 const App = () => {
   return (
     <div>
-      <FBCPropsex1
-      username="tej"
-      isLoggedIn={false}
-      hobbies={["watching movies","travel","Roaming","studies"]}
-      />
+      <FBCStateEx/>
 
     </div>
   )
 }
-
-export default App
-
-
-
+export default App;
 
