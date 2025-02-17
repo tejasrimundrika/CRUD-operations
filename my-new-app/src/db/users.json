@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "name": "Tejasri",
+      "email": "Tej@gmail.com",
+      "phone": "8192091921290",
+      "id": "1"
+    },
+    {
+      "name": "Akshara",
+      "email": "Akshu@gmail.com",
+      "phone": "81996887997",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "shabu",
+      "email": "shabu@gmail.com",
+      "phone": "81966887997"
+    },
+    {
+      "id": "4",
+      "name": "chinnu",
+      "email": "chinnu@gmail.com",
+      "phone": "8196799745"
+    },
+    {
+      "id": "bcc2",
+      "name": "shyam",
+      "email": "shyam@gmail.com",
+      "phone": "912389724"
+    },
+    {
+      "id": "5baa",
+      "name": "Shravani",
+      "email": "shravani@gmail.com",
+      "phone": "7162388138"
+    }
+  ]
+}
